@@ -10,15 +10,21 @@
 
 	body
 	{
-		font-family: 'Source Sans Pro';
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 20px;
 
-		background-image: url("fundo.png");
-		color: white;
+		background-color: #FFFFFF;
+		color: rgb(69, 69, 69);
 		font-weight: 600;
-        
-        	width: 50%;
-        	margin-left: 25%;
+
+  	width: 50%;
+  	margin-left: 25%;
+	}
+
+	a
+	{
+	  color: rgb(0, 108, 177);
+		text-decoration: none;
 	}
 
 </style>

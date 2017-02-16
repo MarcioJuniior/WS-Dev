@@ -7,34 +7,31 @@ div {position: absolute;}
 
 
 /* Fonte */
-@font-face 
+@font-face
 {
     font-family: "sansation";
     src: url(content/font/Sansation_Bold.ttf);
     font-weight: bold;
 }
 
-@font-face 
+@font-face
 {
     font-family: "sansation";
     src: url(content/font/Sansation_Regular.ttf);
 }
 
-
-
-
 /* Formulário */
 
 textarea
 {
-    background-color: #145252; 
+    background-color: #145252;
     font-family: "sansation";
     color: white;
 }
 
 input[type=text]:focus
 {
-    background-color: #1d6f6f; 
+    background-color: #1d6f6f;
 }
 input, textarea
 {
@@ -64,7 +61,7 @@ input[type=checkbox]:checked, input[type=radio]:checked
     background-image: url(content/imgs/checked.png);
 }
 
-input[type=submit], input[type=reset] 
+input[type=submit], input[type=reset]
 {
     background-color: #145252;
     color: white;
@@ -122,7 +119,7 @@ input[type=submit], input[type=reset]
 {
     position: absolute;
     line-height: 60px;
-    height: 60px; 
+    height: 60px;
     width: 100%;
     text-align: center;
     right: 0px;
@@ -135,7 +132,7 @@ input[type=submit], input[type=reset]
 
 /* Sidebar */
 
-.sidebarCl 
+.sidebarCl
 {
     position: fixed;
     top: 60px;
@@ -151,7 +148,7 @@ input[type=submit], input[type=reset]
 .sidebarSubFrameCl
 {
     position: relative;
-    
+
     background-color: #145252;
     font-family: "sansation";
     color: white;
@@ -174,7 +171,7 @@ input[type=submit], input[type=reset]
 .aSelector
 {
     position: absolute;
-        
+
     top: 0px;
     left: 0px;
     padding: 15px 15px 15px 15px;
@@ -186,7 +183,7 @@ input[type=submit], input[type=reset]
     border: hidden;
 }
 
-.aSelector:hover 
+.aSelector:hover
 {
     text-decoration: none;
     color: white;
@@ -250,7 +247,7 @@ button
     animation-duration: 0.75s;
 }
 
-@keyframes bodyAnimation 
+@keyframes bodyAnimation
 {
     from {background-color: #145252;
           top: 100%;
@@ -267,7 +264,7 @@ button
     width: 5px;
     background-color: #145252;
     top: -20px;
-    
+
     animation-name: divideYAnimation;
     animation-duration: 3s;
     border: none;
@@ -300,7 +297,7 @@ h2 {font-size: 22}
     right: 0px;
     background-color: #145252;
 
-        
+
     animation-name: divideXAnimation;
     animation-duration: 3.5s;
     animation-timing-function: ease;
@@ -341,7 +338,7 @@ h3 {font-size: 24}
 
 /* Tables */
 
-table 
+table
 {
     border-collapse: collapse;
     border-top: 3px solid #0c3b3b;
@@ -351,19 +348,18 @@ tr:nth-child(odd) {
     background-color: #508d8d;
 }
 th {text-decoration: underline;}
-td.img, th.img 
-{   
+td.img, th.img
+{
     max-height: 200px;
     max-width: 200px;
     border-style: none;
 }
-table.img 
+table.img
 {
     border-style: none;
 }
 th, td
 {
-    color: black;
     border: none;
     text-align: left;
     padding-left: 40px;
@@ -391,14 +387,14 @@ a
     color: inherit;
 }
 
-a:hover 
+a:hover
 {
     text-decoration: underline;
     color: #831111;
 }
 
 .aRef:hover  {text-decoration: none;}
-.aRef:target 
+.aRef:target
 {
     color: #831111;
     animation-name: aRefAnimation;
@@ -424,7 +420,7 @@ a:hover
    animation-name: aKoalaBody;
     animation-duration: 0.4s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite; 
+    animation-iteration-count: infinite;
 }
 
 @keyframes aKoalaBody

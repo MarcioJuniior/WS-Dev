@@ -20,15 +20,15 @@ $names = $indexer->GetNames();
 		?>
 
 		<table border>
-			<?php 
+			<?php
 				$tam = $indexer->GetLength();
-				for ($i=0; $i < $tam; $i++) 
-				{ 
+				for ($i = $tam - 1; $i >= 0; $i--)
+				{
 					echo "<tr>\n";
-					echo "    <td style=\"background-color: black;\"><b>" . $names[$i] . "</b></td><td style=\"background-color: black;\"><a href='" . $files[$i] .  "'><b>Acessar/Baixar</b></a></td>\n";
-					echo "</tr>\n";	
-				}					
-				
+					echo "    <td><a href='" . $files[$i] .  "'><b>" . $names[$i] . "</b></a></td>\n";
+					echo "</tr>\n";
+				}
+
 				$indexer = null;
 			?>
 		</table>
