@@ -78,10 +78,10 @@ class FileIndexer
 
 	public function InsertFile($filepath, $name)
 	{	
-		if (strpos($filepath, "www2") == false)
+		if (strpos($filepath, "www2") === false)
 			$filepath = "www2/" . $filepath;	
 
-		if (strpos($filepath, "http://") == false)
+		if (strpos($filepath, "http://") === false)
 			$filepath = "http://" . $filepath;	
 
 		if (testarURL($filepath) == 0 || testarURL($filepath) == 404)
